@@ -5,4 +5,8 @@ fetch(`http://api.openweathermap.org/data/2.5/weather?q=Jakarta,ID&appid=08c63bb
 })
 .then (data => {
     console.log(data)
+    document.getElementById('weather').innerHTML = `<h2>${data.weather[0].main}</h2>`
+    document.getElementsByTagName
 })
+
+
