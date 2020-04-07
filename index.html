@@ -13,9 +13,9 @@
 
 <body>
     <!-- Header -->
-    
 
-<!-- JUMBOTRON -->
+
+    <!-- JUMBOTRON -->
     <div class="container-fluid-xl">
         <div class="bg1">
             <div class="header sticky-top">
@@ -27,22 +27,28 @@
                     <a href=""></a>
                 </div>
             </div>
-            <div class="jumbotron text-center">
-                <div class="container">
-                    <h1 class="jumbotron-heading"> Today's Weather</h1>
-                    <p class="lead">
-                        Check out Today's Weather on this Website
-                    </p>
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h1 class="jumbotron-heading" id="currentCity-head"></h1>
+                        <p id="currentCity-date" class="lead">Hari, Tanggal, Jam</p>
+                        <div class="weather-icon">
+                            <img id="currentCity-icon" src="" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <h1 class="jumbotron-heading"> Today's Weather</h1>
+                        <p class="lead">
+                            Check out Today's Weather on this Website
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="weather">
-
-    </div>
     <!-- CONTENT -->
 
-    <h1>weatherapp</h1>
+    <!-- <h1>weatherapp</h1> -->
     <div class="album">
         <div class="container">
             <div class="row">
@@ -50,21 +56,18 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="app-title">
-                            <h2 id="weather">Weather</h2>
+                            <h2 id="secondCity-head">Weather</h2>
                         </div>
                         <div class="notification"></div>
                         <div class="weather-container">
                             <div class="weather-icon">
-                                <img src="" alt="">
+                                <img id="secondCity-icon" src="" alt="">
                             </div>
                             <div class="temperature-value">
-                                <p>? °<span>C</span></p>
+                                <p><span id="secondCity-temp">?</span> °C</p>
                             </div>
                             <div class="temperature-description">
-                                <p>_</p>
-                            </div>
-                            <div class="location">
-                                <p>?</p>
+                                <p id="secondCity-desc">_</p>
                             </div>
                         </div>
                     </div>
@@ -73,21 +76,18 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="app-title">
-                            <h2 id="weather">Weather</h2>
+                            <h2 id="thirdCity-head">Weather</h2>
                         </div>
                         <div class="notification"></div>
                         <div class="weather-container">
                             <div class="weather-icon">
-                                <img src="" alt="">
+                                <img id="thirdCity-icon" src="" alt="">
                             </div>
                             <div class="temperature-value">
-                                <p>? °<span>C</span></p>
+                                <p><span id="thirdCity-temp">?</span> °C</p>
                             </div>
                             <div class="temperature-description">
-                                <p>_</p>
-                            </div>
-                            <div class="location">
-                                <p>?</p>
+                                <p id="thirdCity-desc">_</p>
                             </div>
                         </div>
                     </div>
@@ -96,33 +96,28 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="app-title">
-                            <h2 id="weather">Weather</h2>
+                            <h2 id="fourthCity-head">Weather</h2>
                         </div>
                         <div class="notification"></div>
                         <div class="weather-container">
                             <div class="weather-icon">
-                                <img src="" alt="">
+                                <img id="fourthCity-icon" src="" alt="">
                             </div>
                             <div class="temperature-value">
-                                <p>? °<span>C</span></p>
+                                <p><span id="fourthCity-temp">?</span> °C</p>
                             </div>
                             <div class="temperature-description">
-                                <p>_</p>
-                            </div>
-                            <div class="location">
-                                <p>?</p>
+                                <p id="fourthCity-desc">_</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            
-            
+
         </div>
 
     </div>
-    
+
 
     <!-- FOOTER -->
     <footer>
