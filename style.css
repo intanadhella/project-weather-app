@@ -4,6 +4,9 @@ body{
 }
 
 /* header */
+.company-logo {
+    color: white;
+}
 
 .header {
     display: flex;
@@ -16,7 +19,7 @@ body{
 .header a{
     text-decoration: none;
     float: left;
-    color: black;
+    color:white;
     padding: 10px;
     font-size: 20px;
 }
@@ -60,17 +63,24 @@ body{
 footer{
     display: flex;
     justify-content: space-evenly;
-    background-color: grey;
+    background-color: #1BA0E2;
+    /* background: #ECF8FF; */
     font-size: 20px;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
+.big-heading {
+    margin-bottom: 50px;
+}
+.button {
+    width: 150px;
+}
 
 .cr {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color:white;;
     text-align: center;
     font-size: 12px;
     padding: 10px;
