@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-        <!-- Font Awesome -->
+    <!-- Font Awesome -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-  
+
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -32,7 +32,7 @@
                     <a href=""></a>
                 </div>
             </div>
-            <div class="jumbotron">
+            <div class="jumbotron container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <h1 class="jumbotron-heading" id="currentCity-head"></h1>
@@ -53,72 +53,68 @@
     </div>
     <!-- CONTENT -->
 
-    <!-- <h1>weatherapp</h1> -->
-    <div class="album">
-        <div class="container">
-            <div class="row">
-                <!-- KOTA 1 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="app-title">
-                            <h2 id="secondCity-head">Weather</h2>
-                        </div>
-                        <div class="notification"></div>
-                        <div class="weather-container">
-                            <div class="weather-icon">
-                                <img id="secondCity-icon" src="" alt="">
-                            </div>
-                            <div class="temperature-value">
-                                <p><span id="secondCity-temp">?</span> °C</p>
-                            </div>
-                            <div class="temperature-description">
-                                <p id="secondCity-desc">_</p>
-                            </div>
-                        </div>
+    <div class="container py-5">
+        <div class="row">
+            <!-- KOTA 1 -->
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <div class="app-title">
+                        <h2 id="secondCity-head">Weather</h2>
                     </div>
-                </div>
-                <!-- KOTA 2 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="app-title">
-                            <h2 id="thirdCity-head">Weather</h2>
+                    <div class="notification"></div>
+                    <div class="weather-container">
+                        <div class="weather-icon">
+                            <img id="secondCity-icon" src="" alt="">
                         </div>
-                        <div class="notification"></div>
-                        <div class="weather-container">
-                            <div class="weather-icon">
-                                <img id="thirdCity-icon" src="" alt="">
-                            </div>
-                            <div class="temperature-value">
-                                <p><span id="thirdCity-temp">?</span> °C</p>
-                            </div>
-                            <div class="temperature-description">
-                                <p id="thirdCity-desc">_</p>
-                            </div>
+                        <div class="temperature-value">
+                            <p><span id="secondCity-temp">?</span> °C</p>
                         </div>
-                    </div>
-                </div>
-                <!-- KOTA 3 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="app-title">
-                            <h2 id="fourthCity-head">Weather</h2>
-                        </div>
-                        <div class="notification"></div>
-                        <div class="weather-container">
-                            <div class="weather-icon">
-                                <img id="fourthCity-icon" src="" alt="">
-                            </div>
-                            <div class="temperature-value">
-                                <p><span id="fourthCity-temp">?</span> °C</p>
-                            </div>
-                            <div class="temperature-description">
-                                <p id="fourthCity-desc">_</p>
-                            </div>
+                        <div class="temperature-description">
+                            <p id="secondCity-desc">_</p>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <!-- KOTA 2 -->
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <div class="app-title">
+                        <h2 id="thirdCity-head">Weather</h2>
+                    </div>
+                    <div class="notification"></div>
+                    <div class="weather-container">
+                        <div class="weather-icon">
+                            <img id="thirdCity-icon" src="" alt="">
+                        </div>
+                        <div class="temperature-value">
+                            <p><span id="thirdCity-temp">?</span> °C</p>
+                        </div>
+                        <div class="temperature-description">
+                            <p id="thirdCity-desc">_</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- KOTA 3 -->
+            <div class="col-md-4">
+                <div class="card p-3 text-center">
+                    <div class="app-title">
+                        <h2 id="fourthCity-head">Weather</h2>
+                    </div>
+                    <div class="notification"></div>
+                    <div class="weather-container">
+                        <div class="weather-icon">
+                            <img id="fourthCity-icon" src="" alt="">
+                        </div>
+                        <div class="temperature-value">
+                            <p><span id="fourthCity-temp">?</span> °C</p>
+                        </div>
+                        <div class="temperature-description">
+                            <p id="fourthCity-desc">_</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -128,9 +124,11 @@
     <footer>
         <div class="container-fluid">
             <h3 class="big-heading">Find us on your mobile phone with others awesome features</h3>
-            <button type="button" class="download-button btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-            <button type="button" class="download-button btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-          </div>
+            <button type="button" class="download-button btn btn-dark btn-lg download-button"><i
+                    class="fab fa-apple"></i> Download</button>
+            <button type="button" class="download-button btn btn-outline-light btn-lg download-button"><i
+                    class="fab fa-google-play"></i> Download</button>
+        </div>
     </footer>
 
     <!-- copyright -->
