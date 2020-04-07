@@ -3,6 +3,23 @@ fetch(URL)
 .then((response) => {
     return response.json();
 })
+// .then (data => {
+//     console.log(data)
+//     console.log(data);
+//     const {
+//         weather,
+//         name
+//     } = data
+//     const weatherHTMLString = `
+//     <div class="col-sm-6 col-md-4">
+//         weather : ${weather[0]}
+//         <br>
+//         name : ${name}
+//     </div>
+//     `;
+//     document.getElementById('weather').innerHTML = weatherHTMLString;
+// }) 
+
 .then (data => {
     console.log(data)
     const {
@@ -25,4 +42,7 @@ fetch(URL)
     let icon = `http://openweathermap.org/img/wn/${weather[0].icon}@2x.png`
     document.getElementsByClassName('weather-icon')[0].getElementsByTagName('img')[0].src = icon
 
+
+    document.getElementById('weather').innerHTML = `<h2>${data.weather[0].main}</h2>`
+    document.getElementsByTagName
 }) 
