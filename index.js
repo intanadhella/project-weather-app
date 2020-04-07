@@ -1,4 +1,4 @@
-const URL = 'http://api.openweathermap.org/data/2.5/group?id=1642911,1214520,1642858,1631761&units=metric&appid=08c63bb12c5a4132f5d570f08f17872d'
+const URL = '//api.openweathermap.org/data/2.5/group?id=1642911,1214520,1642858,1631761&units=metric&appid=08c63bb12c5a4132f5d570f08f17872d'
 fetch(URL)
 .then((response) => {
     return response.json();
