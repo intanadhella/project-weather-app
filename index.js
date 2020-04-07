@@ -44,5 +44,4 @@ fetch(URL)
 
 
     document.getElementById('weather').innerHTML = `<h2>${data.weather[0].main}</h2>`
-    document.getElementsByTagName
 }) 
