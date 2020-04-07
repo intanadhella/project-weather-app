@@ -6,6 +6,9 @@ body{
 /* header */
 
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     overflow: hidden;
     background-color: rgb(202, 198, 198);
 }
@@ -16,4 +19,60 @@ body{
     color: black;
     padding: 10px;
     font-size: 20px;
+}
+
+.header-right{
+    float: right;
+}
+
+.bg1{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.jumbotron{
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0)), url();
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+.jumbotron-heading{
+    color: white;
+    font-weight: 300px;
+}
+
+.jumbotron .container{
+    max-width: 40rem;
+}
+
+.lead{
+    color: white;
+}
+/* content */
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.cr {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
 }
