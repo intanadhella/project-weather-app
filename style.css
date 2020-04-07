@@ -6,6 +6,9 @@ body{
 /* header */
 
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     overflow: hidden;
     background-color: rgb(202, 198, 198);
 }
@@ -20,4 +23,30 @@ body{
 
 .header-right{
     float: right;
+}
+
+/* content */
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.cr {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
 }
