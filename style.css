@@ -17,3 +17,7 @@ body{
     padding: 10px;
     font-size: 20px;
 }
+
+.header-right{
+    float: right;
+}
