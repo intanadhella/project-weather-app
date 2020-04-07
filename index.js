@@ -25,7 +25,6 @@ fetch(URL)
 .then (data => {
     console.log(data)
 
-<<<<<<< HEAD
     //currentCity
     const currentCityHead = document.getElementById('currentCity-head')
     currentCityHead.innerHTML = data[0].name
@@ -68,8 +67,4 @@ fetch(URL)
     fourthCityTemp.innerHTML = data[3].main.temp
     const fourthCityDesc = document.getElementById('fourthCity-desc')
     fourthCityDesc.innerHTML = data[3].weather[0].main
-=======
-
-    document.getElementById('weather').innerHTML = `<h2>${data.weather[0].main}</h2>`
->>>>>>> bc4efc160f9edaa377d81be9807c99abec02cf9d
 }) 
