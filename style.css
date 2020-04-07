@@ -2,3 +2,18 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* header */
+
+.header {
+    overflow: hidden;
+    background-color: rgb(202, 198, 198);
+}
+
+.header a{
+    text-decoration: none;
+    float: left;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
